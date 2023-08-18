@@ -1,0 +1,31 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.bg-container-dark {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+}
+.bg-container-lt {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+.about-image {
+  height: 20%;
+}
+.about-text {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.about-text-light {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-decoration: none;
+}

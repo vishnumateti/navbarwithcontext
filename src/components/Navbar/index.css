@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.bg-container-dark {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+}
+.bg-container-lt {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid #dcdcdc;
+}
+.nav-container-dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0px;
+  background-color: #333333;
+}
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+.home-about-options-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.list-container {
+  list-style-type: none;
+}
+.home-text {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.home-text-light {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-decoration: none;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .home-about-options-container {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  }
+  .list-container {
+    list-style-type: none;
+  }
+  .website-logo {
+    height: 60px;
+    width: 60px;
+  }
+  .home-text {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 32px;
+  }
+  .home-text-light {
+    color: #ffffff;
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 32px;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  border: 0px none transparent;
+  outline: none;
+  background-color: transparent;
+}
